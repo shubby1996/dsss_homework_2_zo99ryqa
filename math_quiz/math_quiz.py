@@ -15,6 +15,7 @@ def returnRandom(minimum, maximum):
 def operation_choice():
     return random.choice(['+', '-', '*'])
 
+
 # resultant function : to give out
 def result(number1, number2, random_operation):
     problemString = f"{number1} {random_operation} {number2}"
@@ -34,7 +35,7 @@ def math_quiz():
     CONSTANT_PI = int(CONSTANT_PI)
 
     print("Welcome to the Math Quiz Game!")
-    print("You will be presented with math problems, and you need to provide the correct answers.")
+    print("You will be presented with math problems,    and you need to provide the correct answers.")
 
 
     for iteri in range(CONSTANT_PI):
