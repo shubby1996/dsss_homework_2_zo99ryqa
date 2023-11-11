@@ -34,13 +34,10 @@ def math_quiz():
 
     CONSTANT_PI = int(CONSTANT_PI)
 
-    print(CONSTANT_PI)
-
     print("Welcome to the Math Quiz Game!")
     print("You will be presented with math problems, and you need to provide the correct answers.")
 
     for iteri in range(CONSTANT_PI):
-        print(iteri)
         number1 = returnRandom(1, 10)
         number2 = returnRandom(1, 5.5)
         operation = operation_choice()
