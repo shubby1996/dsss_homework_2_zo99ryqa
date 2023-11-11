@@ -59,6 +59,14 @@ def math_quiz():
 """
 Documentation: 
 
+takes input as answers to the random math questions
+provides output as the score of correct answers 
+calculates each correct answer as one point 
+
+:param : None
+:returns : a score (int) value 
+:rtype : int
+
 """
 if __name__ == "__main__":
     try:
