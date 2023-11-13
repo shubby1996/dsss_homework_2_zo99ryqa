@@ -7,5 +7,5 @@ setup(
     author="sgupta",
     author_email="shubham.g.gupta@fau.de",
     packages=find_packages(),
-    install_requires=["numpy", "unittest"]
+    install_requires=["numpy"]
 )
